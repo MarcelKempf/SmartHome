@@ -1,0 +1,78 @@
+body {
+	font-family: Century Gothic;
+	font-size: 15px;
+}
+
+/*** HEADER of the Login Site ***/
+
+#LoginBox { 
+	position: relative;
+	border: 1px solid #555;
+	text-align: center;
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+#red { color: Red; border: 1px solid Red; margin: 5% 8% 5% 8%; }
+
+/******/
+/*** HEADER of the SmartHome Site ***/
+
+#HeaderBox { max-width: 1200px;
+	height: 108px;
+	margin: 0 auto;
+	border: 2px solid; 
+	border-color: rgba(128, 128, 128, 0.99);
+}
+#Logo { float: left; }
+
+/******/
+/*** Modulsection design of the SmartHome Site ***/
+
+
+.Moduls { 
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-top: 10px; 
+	border-color: rgba(128, 128, 128, 0.99);
+}
+.ModulHeader div { 
+	position: relative;
+	max-width: 1202px;
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+.ModulHeader p img { 
+	position: relative;
+	width: 1.3em;
+	height: 1.3em;
+	float: right;
+}
+.ModulHeader p { 
+	position: relative;
+	font-size: 1.15em;
+	max-width: 1280px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding: 0.15em;
+	border: 2px solid; 
+	border-color: rgba(128, 128, 128, 0.99);
+	border-left-color: white;
+	border-right-color: white;
+}
+.ModulHeader p:hover { 
+	border-color: rgba(128, 128, 128, 0.99);
+}
+.Modul_Content { 
+	margin: 0 auto;
+	max-width: 1300px;
+	margin-top: -2px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 0.15em;
+	border: 1px solid; 
+	border-color: rgba(128, 128, 128, 0.99);
+	display: none;
+}

@@ -1,0 +1,61 @@
+.default_button {
+	
+	float: right;
+	margin-right: 0.4em;
+	clear: both;
+
+}
+
+#Tool_Bar {
+
+	position: relative;
+	text-align: center;
+	margin: 0.6em 0 0.6em 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+}
+
+.single_button { 
+
+	display: inline-block;
+	margin: 0.1em 0.1em 0.1em 0.1em;
+	padding: 0.2em;
+	border-radius: 0.4em;
+	border: solid 1px white;
+	-webkit-border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+}
+
+.icon_plus { width: 1.4em; height: 1.4em; }
+.icon_trash { width: 1.4em; height: 1.4em; }
+
+.single_button:hover { 
+
+	background-color: rgb(144, 238, 144);
+	border: solid 1px grey;
+	margin: 0.1em 0 0.1em 0;
+	
+}
+
+.styleapi_button_1 {
+
+	background-color: rgba(0, 185, 239, 0.12);
+	display: block; 
+	margin-left: auto;
+	margin-right: 0;
+	margin-top: 0.6em;
+	padding: 0.5em 0 0.5em 0;
+
+}
+
+.styleapi_button_2 {
+
+	background-color: rgba(128, 128, 128, 0.12);
+	display: block; 
+	margin-left: auto;
+	margin-right: 0;
+	margin-top: 0.6em;
+	padding: 0.5em 0 0.5em 0;
+	
+}
